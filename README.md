@@ -1,1 +1,1 @@
-# Business
+# HangMan-mini
