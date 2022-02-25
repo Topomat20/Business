@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>HangMan</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1>Geography Hangman</h1>
+        <button id="start">Start</button>
+      </nav>
+    </header>
+    <main>
+        <!-- Input -->
+      <section>
+        <div class="card">
+          <section class="card-body">
+            <p class="words" >G _ _ g _ _ p _ y</p>
+          </section>
+        </div>
+      </section>
+      <!-- Score -->
+      <section>
+        <div class="card results">
+          <div>
+            <section class="sub-header">
+              <ul>
+                <li>Wins: <span class="win">0</span></li>
+                <li>Lose: <span class="loss">0</span></li>
+              </ul>
+              <button id="reset">Reset</button>
+            </section>
+            <!-- Smaller card in the bigger one -->
+            <section class="timer">
+              <p class="timer-count">20</p>
+              <p class="seconds">seconds left.</p>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Kayla De La Cruz
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
