@@ -6,7 +6,7 @@ When the user opens the webpage they are presented with the game of Hangman. The
 ### Defendencies
 * None
 ### Installing
-* No installation required.
+* https://topomat20.github.io/HangMan-mini/
 ### Executing program
 The completed application should meet the following criteria:
 
@@ -45,4 +45,4 @@ Contributors names and contact info
 ## License
 None
 ## Acknowledgments
-* I got the img from "South Walton Flordia" webpage.
+* None
